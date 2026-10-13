@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHARIQON TECHNOLOGIES | Web Development, Software &amp; AI Solutions</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Transform your ideas with SHARIQON TECHNOLOGIES. Explore web development, custom software, AI automation, mobile apps, cloud solutions, and cybersecurity.">
+  <meta name="keywords" content="SHARIQON TECHNOLOGIES, web development, custom software, AI automation, mobile apps, cloud solutions, cybersecurity, digital solutions">
+  <meta name="author" content="SHARIQON TECHNOLOGIES">
+  <link rel="canonical" href="https://shariqon.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shariqon.com/">
+  <meta property="og:title" content="SHARIQON TECHNOLOGIES | Powering the Digital Future">
+  <meta property="og:description" content="Turning Your Ideas Into Powerful Digital Solutions. Modern web development, custom software engineering, AI automation, and cloud architecture.">
+  <meta property="og:image" content="assets/images/logo/logo-full.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SHARIQON TECHNOLOGIES | Powering the Digital Future">
+  <meta name="twitter:description" content="Turning Your Ideas Into Powerful Digital Solutions. Explore web development, software, AI and cloud services.">
+  <meta name="twitter:image" content="assets/images/logo/logo-full.png">
+
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#061426">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SHARIQON TECHNOLOGIES",
+    "url": "https://shariqon.com/",
+    "logo": "https://shariqon.com/assets/images/logo/logo-full.png",
+    "description": "Turning Your Ideas Into Powerful Digital Solutions. Modern web development, custom software engineering, AI automation, and cloud architecture.",
+    "telephone": "+919058867374",
+    "sameAs": [
+      "https://www.instagram.com/shariqon.technologies/"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+919058867374",
+      "contactType": "customer service",
+      "areaServed": "Global",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header & Sticky Navigation Bar
+       ========================================================================== -->
+  <header class="header" id="header" role="banner">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="SHARIQON TECHNOLOGIES Home">
+        <img src="assets/images/logo/logo-light.png" alt="SHARIQON TECHNOLOGIES Logo" class="nav-logo-img" width="180" height="48">
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="nav-menu" id="nav-menu" role="navigation" aria-label="Main Navigation">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="services.html" class="nav-link dropdown-toggle" aria-haspopup="true">
+            Services <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem;"></i>
+          </a>
+          <div class="nav-dropdown" role="menu">
+            <a href="services.html#web-dev" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-code"></i> Web Development
+            </a>
+            <a href="services.html#custom-software" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-laptop-code"></i> Custom Software
+            </a>
+            <a href="services.html#ai-automation" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-brain"></i> AI &amp; Automation
+            </a>
+            <a href="services.html#mobile-apps" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-mobile-screen"></i> Mobile App Dev
+            </a>
+            <a href="services.html#cloud-solutions" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-cloud"></i> Cloud Solutions
+            </a>
+            <a href="services.html#cybersecurity" class="dropdown-link" role="menuitem">
+              <i class="fa-solid fa-shield-halved"></i> Cybersecurity
+            </a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="portfolio.html" class="nav-link">Portfolio</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <!-- Mobile Drawer CTA -->
+        <div class="mobile-menu-cta" style="display: none;">
+          <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+            Get a Free Consultation
+          </a>
+        </div>
+      </nav>
+
+      <!-- Navigation Actions -->
+      <div class="nav-actions">
+        <a href="https://www.instagram.com/shariqon.technologies/" target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="Visit our Instagram @shariqon.technologies">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/919058867374?text=Hello%20SHARIQON%20TECHNOLOGIES%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20software%20development%20project." target="_blank" rel="noopener noreferrer" class="nav-social-link" aria-label="Chat on WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          Get a Free Consultation
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         Cinematic Hero Section
+         ========================================================================== -->
+    <section class="hero" id="home">
+      <!-- Ambient Background Visual Elements -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        <div class="hero-grid-pattern"></div>
+      </div>
+
+      <div class="container hero-content-wrap">
+        <!-- Hero Text -->
+        <div class="hero-text" data-reveal>
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            <span class="hero-badge-text">INNOVATION &bull; TECHNOLOGY &bull; GROWTH</span>
+          </div>
+
+          <h1 class="hero-title">
+            Turning Your Ideas Into <span class="hero-title-highlight">Powerful Digital Solutions.</span>
+          </h1>
+
+          <p class="hero-description">
+            We help businesses grow with modern software, intelligent technology, and future-ready digital solutions designed to deliver real results.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="contact.html" class="btn btn-primary btn-lg">
+              Let&rsquo;s Discuss Your Project <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="services.html" class="btn btn-secondary btn-lg">
+              Explore Our Services
+            </a>
+          </div>
+
+          <div class="hero-trust">
+            <div class="hero-trust-tag">
+              <i class="fa-solid fa-microchip"></i>
+              <span>Smart Technology</span>
+            </div>
+            <div class="hero-trust-tag">
+              <i class="fa-solid fa-pen-nib"></i>
+              <span>Thoughtful Design</span>
+            </div>
+            <div class="hero-trust-tag">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Business Growth</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual" data-reveal>
+          <div class="hero-visual-card">
+            <img src="assets/images/hero-tech-workspace.webp" alt="SHARIQON TECHNOLOGIES high-tech software engineering workspace and live digital operations" class="hero-image" width="1376" height="768" fetchpriority="high">
+            
+            <!-- Floating Feature Badges -->
+            <div class="hero-floating-badge hero-badge-top-left">
+              <div class="hero-floating-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div class="hero-floating-text">
+                <h4>Next-Gen SaaS</h4>
+                <p>Enterprise Speed &amp; Security</p>
+              </div>
+            </div>
+
+            <div class="hero-floating-badge hero-badge-bottom-right">
+              <div class="hero-floating-icon">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="hero-floating-text">
+                <h4>AI &amp; Automation</h4>
+                <p>Tailored Workflow Intelligence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#services" class="hero-scroll-indicator" aria-label="Scroll to services">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>SCROLL DOWN</span>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+         Services Overview (6 Cards)
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-layer-group"></i> OUR CAPABILITIES
+          </div>
+          <h2 class="section-title">
+            Technology That Moves Your <span class="text-gradient-gold">Business Forward</span>
+          </h2>
+          <p class="section-subtitle">
+            From innovative websites to intelligent automation, we build digital solutions tailored to your goals.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Web Development -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/web-development.webp" alt="Web Development and Responsive Design" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Web Development</h3>
+              <p class="service-card-description">
+                High-performance websites and bespoke web applications designed for brand authority, seamless usability, and lead conversion.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> Business Websites</li>
+                <li><i class="fa-solid fa-check"></i> High-Converting Landing Pages</li>
+                <li><i class="fa-solid fa-check"></i> Responsive Web Applications</li>
+                <li><i class="fa-solid fa-check"></i> E-commerce Solutions</li>
+              </ul>
+              <a href="services.html#web-dev" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Custom Software Development -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/software-development.webp" alt="Custom Software Development" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Custom Software Development</h3>
+              <p class="service-card-description">
+                Purpose-built software platforms that streamline core business processes, eliminate redundancies, and scale effortlessly.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> Business Management Systems</li>
+                <li><i class="fa-solid fa-check"></i> Custom CRM and ERP Solutions</li>
+                <li><i class="fa-solid fa-check"></i> Interactive Executive Dashboards</li>
+                <li><i class="fa-solid fa-check"></i> Automated Workflow Software</li>
+              </ul>
+              <a href="services.html#custom-software" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: AI & Automation -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/ai-automation.webp" alt="AI and Intelligent Automation" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">AI &amp; Automation</h3>
+              <p class="service-card-description">
+                Leverage practical artificial intelligence to automate repetitive tasks, extract insights, and enhance customer interactions.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> AI-Powered Business Tools</li>
+                <li><i class="fa-solid fa-check"></i> End-to-End Workflow Automation</li>
+                <li><i class="fa-solid fa-check"></i> Intelligent Chatbots &amp; Copilots</li>
+                <li><i class="fa-solid fa-check"></i> Productivity Optimization</li>
+              </ul>
+              <a href="services.html#ai-automation" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Mobile App Development -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/mobile-apps.webp" alt="Mobile App Development" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Mobile App Development</h3>
+              <p class="service-card-description">
+                Native and cross-platform mobile apps engineered with fluid animations, intuitive navigation, and reliable offline capabilities.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> Android Applications</li>
+                <li><i class="fa-solid fa-check"></i> iOS Applications</li>
+                <li><i class="fa-solid fa-check"></i> Cross-Platform Apps (Flutter/React)</li>
+                <li><i class="fa-solid fa-check"></i> Mobile-First User Experiences</li>
+              </ul>
+              <a href="services.html#mobile-apps" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5: Cloud Solutions -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/cloud-solutions.webp" alt="Cloud Infrastructure and Hosting" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Cloud Solutions</h3>
+              <p class="service-card-description">
+                Resilient cloud architecture ensuring uninterrupted uptime, effortless global scalability, and cost-effective resource utilization.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> Cloud Migration &amp; Deployment</li>
+                <li><i class="fa-solid fa-check"></i> Hosting &amp; Infrastructure Setup</li>
+                <li><i class="fa-solid fa-check"></i> Scalable Microservices Architecture</li>
+                <li><i class="fa-solid fa-check"></i> Speed &amp; Performance Optimization</li>
+              </ul>
+              <a href="services.html#cloud-solutions" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6: Cybersecurity -->
+          <article class="service-card" data-reveal>
+            <div class="service-card-media">
+              <img src="assets/images/cybersecurity.webp" alt="Cybersecurity and Protection" class="service-card-img" width="1376" height="768" loading="lazy">
+              <div class="service-card-overlay"></div>
+              <div class="service-card-icon-badge">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title">Cybersecurity</h3>
+              <p class="service-card-description">
+                Proactive defense protocols, data encryption safeguards, and code auditing to protect your digital assets from vulnerabilities.
+              </p>
+              <ul class="service-card-list">
+                <li><i class="fa-solid fa-check"></i> Vulnerability &amp; Risk Assessments</li>
+                <li><i class="fa-solid fa-check"></i> Secure Application Development</li>
+                <li><i class="fa-solid fa-check"></i> Website &amp; API Protection</li>
+                <li><i class="fa-solid fa-check"></i> Industry Security Best Practices</li>
+              </ul>
+              <a href="services.html#cybersecurity" class="service-card-link">
+                Learn More <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Why Choose Us Section
+         ========================================================================== -->
+    <section class="section" id="why-choose-us">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-gem"></i> THE SHARIQON ADVANTAGE
+          </div>
+          <h2 class="section-title">
+            Your Vision. <span class="text-gradient-gold">Our Technology.</span>
+          </h2>
+          <p class="section-subtitle">
+            We partner with ambitious enterprises and emerging brands to build durable digital foundations that foster lasting market advantages.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card" data-reveal>
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <h3 class="feature-title">Tailored Digital Solutions</h3>
+            <p class="feature-description">
+              We don’t believe in cookie-cutter templates. Every architecture and UI is customized to solve your specific operational challenges and business goals.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card" data-reveal>
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3 class="feature-title">Modern &amp; Scalable Tech</h3>
+            <p class="feature-description">
+              Built with cutting-edge tech stacks and clean code standards that grow smoothly alongside your business without requiring costly rewrites.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card" data-reveal>
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-users-viewfinder"></i>
+            </div>
+            <h3 class="feature-title">User-Centered Design</h3>
+            <p class="feature-description">
+              Striking visual aesthetics combined with intuitive UX pathways designed to delight users, minimize friction, and maximize retention.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card" data-reveal>
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3 class="feature-title">Reliable Technical Support</h3>
+            <p class="feature-description">
+              Dependable assistance, ongoing monitoring, and proactive maintenance to keep your digital solutions running safely and peak-performing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Our Work / Portfolio Section
+         ========================================================================== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-briefcase"></i> SHOWCASE PROJECTS
+          </div>
+          <h2 class="section-title">
+            Engineered For Impact &amp; <span class="text-gradient-gold">Performance</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore demonstration concepts and digital architecture implementations designed to showcase what is possible for your organization.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filters" data-reveal>
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="saas">SaaS Dashboard</button>
+          <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button class="filter-btn" data-filter="automation">AI &amp; Automation</button>
+          <button class="filter-btn" data-filter="business">Corporate Web</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <article class="portfolio-card" data-category="saas" data-reveal>
+            <div class="portfolio-card-media">
+              <img src="assets/images/portfolio/saas-dashboard.webp" alt="Fintech SaaS Analytics Dashboard" class="portfolio-card-img" width="1376" height="768" loading="lazy">
+              <span class="portfolio-badge">SaaS Dashboard</span>
+            </div>
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Fintech Analytics Cloud Platform</h3>
+              <p class="portfolio-card-desc">
+                High-frequency transaction monitoring dashboard with custom data visualizations, revenue metrics, and real-time ledger sync.
+              </p>
+              <div class="portfolio-card-tags">
+                <span class="portfolio-tag">Vue / React</span>
+                <span class="portfolio-tag">TypeScript</span>
+                <span class="portfolio-tag">HighCharts</span>
+                <span class="portfolio-tag">REST APIs</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="portfolio-card" data-category="ecommerce" data-reveal>
+            <div class="portfolio-card-media">
+              <img src="assets/images/portfolio/ecommerce-platform.webp" alt="Luxury E-commerce Platform" class="portfolio-card-img" width="1376" height="768" loading="lazy">
+              <span class="portfolio-badge">E-commerce</span>
+            </div>
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Aurum Luxury Direct-to-Consumer Store</h3>
+              <p class="portfolio-card-desc">
+                Ultra-fast storefront featuring interactive 3D product visualizer, multi-currency checkout, and seamless inventory management.
+              </p>
+              <div class="portfolio-card-tags">
+                <span class="portfolio-tag">Headless Commerce</span>
+                <span class="portfolio-tag">Stripe Gateway</span>
+                <span class="portfolio-tag">Tailored UX</span>
+                <span class="portfolio-tag">WebP CDN</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="portfolio-card" data-category="automation" data-reveal>
+            <div class="portfolio-card-media">
+              <img src="assets/images/portfolio/business-automation.webp" alt="Enterprise AI Automation Pipeline" class="portfolio-card-img" width="1376" height="768" loading="lazy">
+              <span class="portfolio-badge">AI &amp; Automation</span>
+            </div>
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Helix Intelligent Workflow Orchestrator</h3>
+              <p class="portfolio-card-desc">
+                Visual node pipeline automation for customer query ingestion, sentiment classification, bot triage, and CRM synchronization.
+              </p>
+              <div class="portfolio-card-tags">
+                <span class="portfolio-tag">Python &amp; Node</span>
+                <span class="portfolio-tag">OpenAI / LLMs</span>
+                <span class="portfolio-tag">Webhooks</span>
+                <span class="portfolio-tag">Automation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="portfolio-card" data-category="business" data-reveal>
+            <div class="portfolio-card-media">
+              <img src="assets/images/portfolio/business-website.webp" alt="Corporate Technology Web Platform" class="portfolio-card-img" width="1376" height="768" loading="lazy">
+              <span class="portfolio-badge">Corporate Web</span>
+            </div>
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Aurora Tech Enterprise Web Portal</h3>
+              <p class="portfolio-card-desc">
+                Prestige corporate web experience showcasing corporate capabilities, bilingual localization, dynamic case study galleries, and consultation funnel.
+              </p>
+              <div class="portfolio-card-tags">
+                <span class="portfolio-tag">SEO Optimized</span>
+                <span class="portfolio-tag">Glassmorphism</span>
+                <span class="portfolio-tag">Micro-animations</span>
+                <span class="portfolio-tag">Ultra Fast</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;" data-reveal>
+          <a href="portfolio.html" class="btn btn-secondary">
+            View All Showcase Work <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Our Process Section (Horizontal / Vertical Timeline)
+         ========================================================================== -->
+    <section class="section" id="process" style="background: #040E1B;">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-diagram-project"></i> HOW WE WORK
+          </div>
+          <h2 class="section-title">
+            A Proven, Structured <span class="text-gradient-gold">Pathway to Success</span>
+          </h2>
+          <p class="section-subtitle">
+            From initial concept to deployment and sustained growth, our collaborative process ensures transparent delivery at every phase.
+          </p>
+        </div>
+
+        <div class="process-timeline" data-reveal>
+          <!-- Step 1 -->
+          <div class="process-step">
+            <div class="process-step-num">01</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Discover</h3>
+              <p class="process-step-desc">Understand the business objectives, target audience, and existing roadblocks.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step">
+            <div class="process-step-num">02</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Strategize</h3>
+              <p class="process-step-desc">Plan the optimal tech stack, user journeys, data architecture, and roadmap.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step">
+            <div class="process-step-num">03</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Design</h3>
+              <p class="process-step-desc">Create intuitive UI/UX prototypes and luxury brand experiences.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step">
+            <div class="process-step-num">04</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Develop</h3>
+              <p class="process-step-desc">Engineer clean, scalable code with continuous integration and testing.</p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="process-step">
+            <div class="process-step-num">05</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Launch</h3>
+              <p class="process-step-desc">Deploy seamlessly to production environments with CDN &amp; SEO optimization.</p>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="process-step">
+            <div class="process-step-num">06</div>
+            <div class="process-step-content">
+              <h3 class="process-step-title">Support</h3>
+              <p class="process-step-desc">Continuous monitoring, security updates, feature expansions, and enhancements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Conversion Section (CTA Banner)
+         ========================================================================== -->
+    <section class="section section--sm" id="conversion">
+      <div class="container">
+        <div class="cta-banner" data-reveal>
+          <div class="section-eyebrow" style="margin-bottom: 20px;">
+            <i class="fa-solid fa-rocket"></i> LET&rsquo;S COLLABORATE
+          </div>
+          <h2 class="cta-title">
+            Ready to Build <span class="text-gradient-gold">Something Great?</span>
+          </h2>
+          <p class="cta-desc">
+            Tell us your idea. We’ll help you turn it into a practical, powerful digital solution engineered for long-term growth.
+          </p>
+          <div class="cta-buttons">
+            <a href="contact.html" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-paper-plane"></i> Start Your Project
+            </a>
+            <a href="https://wa.me/919058867374?text=Hello%20SHARIQON%20TECHNOLOGIES%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20software%20development%20project." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Client Testimonials (Sample Demonstration Reviews)
+         ========================================================================== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-comment-dots"></i> CLIENT EXPERIENCES
+          </div>
+          <h2 class="section-title">
+            Trusted by Forward-Thinking <span class="text-gradient-gold">Leaders</span>
+          </h2>
+          <p class="section-subtitle">
+            Here is what partners value most when working alongside our engineering and design team.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              &ldquo;SHARIQON TECHNOLOGIES completely modernized our customer portal. The speed, responsive design, and attention to detail surpassed our expectations.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AK</div>
+              <div class="author-info">
+                <h5>Arun Kumar <span class="sample-badge">Sample Review</span></h5>
+                <p>COO, NexaLogistics</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              &ldquo;The AI automation workflow they implemented eliminated over 15 hours of weekly manual reporting. Their code is clean and their support is prompt.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #FFC928, #D49B0D); color: #061426;">PS</div>
+              <div class="author-info">
+                <h5>Priya Sharma <span class="sample-badge">Sample Review</span></h5>
+                <p>Founder, CloudScale FinTech</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" data-reveal>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              &ldquo;From architecture to deployment, the team displayed international-grade frontend craftsmanship. The luxury aesthetic gives our brand immense credibility.&rdquo;
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #10B981, #059669);">RM</div>
+              <div class="author-info">
+                <h5>Rohit Mehta <span class="sample-badge">Sample Review</span></h5>
+                <p>VP Technology, Horizon Retail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Frequently Asked Questions (FAQ Accordion)
+         ========================================================================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <div class="section-eyebrow">
+            <i class="fa-solid fa-circle-question"></i> COMMON QUESTIONS
+          </div>
+          <h2 class="section-title">
+            Frequently Asked <span class="text-gradient-gold">Questions</span>
+          </h2>
+          <p class="section-subtitle">
+            Everything you need to know about partnering with SHARIQON TECHNOLOGIES for your digital ventures.
+          </p>
+        </div>
+
+        <div class="faq-wrap" data-reveal>
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What services does SHARIQON TECHNOLOGIES provide?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>We provide full-spectrum digital technology services including high-performance Web Development, Custom Software &amp; SaaS Platforms, AI &amp; Business Process Automation, Mobile Application Development (iOS &amp; Android), Cloud Infrastructure Management, and Cybersecurity Auditing.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can you build a custom website for my business?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, absolutely. We design and develop tailor-made corporate websites, e-commerce stores, and high-converting landing pages built on modern web technologies, optimized for search engines (SEO), ultra-fast load times, and flawless mobile responsiveness.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you develop custom software and SaaS applications?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. We specialize in custom business management systems, ERP/CRM portals, multi-tenant SaaS products, and workflow automation engines designed with scalable database architectures, robust APIs, and role-based access control.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Can you integrate AI and business automation?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We implement smart automation pipelines, conversational AI copilots, intelligent document parsers, and custom machine learning algorithms that reduce manual labor and optimize your business operations.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you provide ongoing maintenance and technical support?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Following deployment, we offer continuous maintenance packages covering uptime monitoring, security patching, cloud optimization, routine backups, and iterative feature development.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How can I request a project quotation?</span>
+              <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+            </button>
+            <div class="faq-answer">
+              <p>You can submit a project brief through our <a href="contact.html" style="color: var(--color-gold-primary); font-weight: 600; text-decoration: underline;">Contact Page</a> or connect directly with our engineering team on WhatsApp at <strong>+91 9058867374</strong>. We will review your requirements and provide an estimated timeline and proposal within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Column -->
+        <div class="footer-col">
+          <a href="index.html" class="nav-brand" style="margin-bottom: 8px;">
+            <img src="assets/images/logo/logo-light.png" alt="SHARIQON TECHNOLOGIES" class="nav-logo-img" width="180" height="48">
+          </a>
+          <p class="footer-brand-desc">
+            SHARIQON TECHNOLOGIES — Powering the Digital Future. Transforming ideas into dependable, scalable, and intelligent digital solutions.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/shariqon.technologies/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Follow us on Instagram @shariqon.technologies">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/919058867374?text=Hello%20SHARIQON%20TECHNOLOGIES%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20software%20development%20project." target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Message on WhatsApp +91 9058867374">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="contact.html" class="footer-social-btn" aria-label="Send us an email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="services.html" class="footer-link">All Services</a></li>
+            <li><a href="portfolio.html" class="footer-link">Showcase Portfolio</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Quotes</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#web-dev" class="footer-link">Web Development</a></li>
+            <li><a href="services.html#custom-software" class="footer-link">Custom Software</a></li>
+            <li><a href="services.html#ai-automation" class="footer-link">AI &amp; Automation</a></li>
+            <li><a href="services.html#mobile-apps" class="footer-link">Mobile Apps</a></li>
+            <li><a href="services.html#cloud-solutions" class="footer-link">Cloud Solutions</a></li>
+            <li><a href="services.html#cybersecurity" class="footer-link">Cybersecurity</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Connect</h4>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <div style="color: var(--color-white); font-weight: 600;">WhatsApp Direct</div>
+              <a href="https://wa.me/919058867374" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-primary); font-weight: 600;">+91 9058867374</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-instagram"></i>
+            <div>
+              <div style="color: var(--color-white); font-weight: 600;">Instagram</div>
+              <a href="https://www.instagram.com/shariqon.technologies/" target="_blank" rel="noopener noreferrer" style="color: var(--color-text-muted);">@shariqon.technologies</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <div style="color: var(--color-white); font-weight: 600;">Location</div>
+              <span>India &bull; Global Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> <strong>SHARIQON TECHNOLOGIES</strong>. All rights reserved. &bull; <em>Powering the Digital Future</em>
+        </div>
+        <div class="footer-legal-links">
+          <a href="contact.html">Privacy Policy</a>
+          <a href="contact.html">Terms of Service</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Floating WhatsApp Button & Back To Top
+       ========================================================================== -->
+  <a href="https://wa.me/919058867374?text=Hello%20SHARIQON%20TECHNOLOGIES%2C%20I%20would%20like%20to%20discuss%20a%20website%20or%20software%20development%20project." target="_blank" rel="noopener noreferrer" class="floating-whatsapp" id="floating-whatsapp" aria-label="Chat with us on WhatsApp" title="Chat with us on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Core JavaScript -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>

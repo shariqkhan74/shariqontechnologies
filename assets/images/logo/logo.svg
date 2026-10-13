@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" width="100%" height="100%">
+  <defs>
+    <!-- Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE885" />
+      <stop offset="40%" stop-color="#FFC928" />
+      <stop offset="75%" stop-color="#E5A110" />
+      <stop offset="100%" stop-color="#A56E03" />
+    </linearGradient>
+
+    <!-- Silver/Platinum Ribbon Gradient -->
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#E2E8F0" />
+      <stop offset="70%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <!-- Deep Shadow Filter -->
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFC928" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#FFC928" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FFE57F" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Orbital Ring Behind (Left/Bottom) -->
+  <path d="M 230,240 C 190,265 200,285 260,280 C 330,275 420,240 500,185" fill="none" stroke="url(#goldGrad)" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Digital Floating Cubes / Pixels -->
+  <rect x="460" y="65" width="18" height="18" fill="url(#goldGrad)" rx="3" />
+  <rect x="488" y="45" width="15" height="15" fill="url(#goldGrad)" rx="2.5" />
+  <rect x="508" y="65" width="18" height="18" fill="url(#goldGrad)" rx="3" />
+  <rect x="488" y="88" width="15" height="15" fill="url(#goldGrad)" rx="2.5" />
+
+  <!-- S-Symbol: Lower Fold Ribbon (Gold) -->
+  <path d="M 320,180 L 390,260 C 420,290 480,270 470,220 C 465,195 440,175 400,160 L 320,180 Z" fill="#D98A00" opacity="0.9" />
+  
+  <!-- S-Symbol: Golden Top Ribbon -->
+  <path d="M 440,75 C 380,68 335,80 305,115 C 285,140 295,175 330,195 L 435,245 C 465,260 480,285 460,310 C 430,345 365,340 315,310 L 295,335 C 360,375 455,375 495,320 C 530,270 500,225 455,205 L 355,158 C 335,148 325,130 338,115 C 355,95 390,88 440,94 Z" fill="url(#goldGrad)" filter="url(#glowGold)" />
+
+  <!-- S-Symbol: Front Silver/White Cross Ribbon -->
+  <path d="M 330,110 C 360,95 425,95 445,130 C 455,148 445,170 415,190 L 340,245 C 310,268 320,305 355,325 C 390,342 435,335 455,310 L 440,290 C 425,308 390,318 365,302 C 342,288 340,265 362,248 L 435,195 C 475,168 480,130 455,100 C 425,65 350,70 315,95 Z" fill="url(#silverGrad)" />
+
+  <!-- Orbital Ring Front (Top Right Loop) -->
+  <path d="M 245,265 C 200,240 240,180 340,140 C 430,105 500,100 535,120 C 560,135 550,158 505,180" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Wordmark: SHARIQON -->
+  <g id="wordmark" transform="translate(70, 395)">
+    <!-- S -->
+    <path d="M 0,-38 C 0,-48 10,-55 26,-55 L 50,-55 C 64,-55 72,-46 72,-35 C 72,-25 64,-18 48,-14 L 32,-10 C 20,-7 16,-3 16,3 C 16,9 23,13 36,13 L 56,13 C 65,13 70,8 72,0 L 84,0 C 82,14 70,22 54,22 L 32,22 C 16,22 4,14 4,2 C 4,-9 13,-16 30,-20 L 46,-24 C 57,-27 60,-32 60,-37 C 60,-43 54,-46 44,-46 L 24,-46 C 14,-46 11,-42 10,-38 Z" fill="#FFFFFF" />
+    
+    <!-- H -->
+    <path d="M 96,-53 L 109,-53 L 109,-20 L 149,-20 L 149,-53 L 162,-53 L 162,20 L 149,20 L 149,-9 L 109,-9 L 109,20 L 96,20 Z" fill="#FFFFFF" />
+    
+    <!-- A (with gold inner triangle) -->
+    <path d="M 198,20 L 216,-53 L 230,-53 L 248,20 L 234,20 L 229,1 L 217,1 L 212,20 Z" fill="#FFFFFF" />
+    <polygon points="223,-30 227,-10 219,-10" fill="url(#goldGrad)" />
+    
+    <!-- R -->
+    <path d="M 262,-53 L 294,-53 C 310,-53 322,-44 322,-29 C 322,-18 314,-10 302,-7 L 324,20 L 309,20 L 289,-5 L 275,-5 L 275,20 L 262,20 Z M 275,-42 L 275,-16 L 292,-16 C 302,-16 308,-21 308,-29 C 308,-37 302,-42 292,-42 Z" fill="#FFFFFF" />
+    
+    <!-- I -->
+    <rect x="336" y="-53" width="13" height="73" fill="#FFFFFF" rx="2" />
+    
+    <!-- Q (with gold diagonal accent) -->
+    <path d="M 390,-55 C 414,-55 428,-39 428,-16 C 428,7 414,22 390,22 C 366,22 352,7 352,-16 C 352,-39 366,-55 390,-55 Z M 390,-44 C 374,-44 365,-33 365,-16 C 365,0 374,11 390,11 C 406,11 415,0 415,-16 C 415,-33 406,-44 390,-44 Z" fill="#FFFFFF" />
+    <path d="M 405,1 L 434,30 L 418,30 L 395,7 Z" fill="url(#goldGrad)" />
+
+    <!-- O -->
+    <path d="M 470,-55 C 494,-55 508,-39 508,-16 C 508,7 494,22 470,22 C 446,22 432,7 432,-16 C 432,-39 446,-55 470,-55 Z M 470,-44 C 454,-44 445,-33 445,-16 C 445,0 454,11 470,11 C 486,11 495,0 495,-16 C 495,-33 486,-44 470,-44 Z" fill="#FFFFFF" />
+
+    <!-- N -->
+    <path d="M 522,-53 L 535,-53 L 567,-3 L 567,-53 L 579,-53 L 579,20 L 567,20 L 534,-30 L 534,20 L 522,20 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Subtitle: — TECHNOLOGIES — -->
+  <g transform="translate(60, 442)">
+    <!-- Left gold rule -->
+    <line x1="20" y1="0" x2="80" y2="0" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+    
+    <!-- TECHNOLOGIES text -->
+    <text x="290" y="5" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="700" letter-spacing="14" fill="url(#goldGrad)" text-anchor="middle">TECHNOLOGIES</text>
+    
+    <!-- Right gold rule -->
+    <line x1="500" y1="0" x2="560" y2="0" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Tagline: Powering the Digital Future -->
+  <text x="350" y="475" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="13" font-weight="500" letter-spacing="4.5" fill="#E2E8F0" text-anchor="middle">POWERING THE DIGITAL FUTURE</text>
+</svg>
